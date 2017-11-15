@@ -1,0 +1,20 @@
+{
+    "name": "boxydev/boxywork",
+    "description": "Boxydev framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Mota",
+            "email": "matthieumota@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boxydev\\Bundle\\": "src/Boxydev/Bundle"
+        }
+    }
+}
