@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Boxydev\Bundle;
+namespace Boxydev\Bundle\CmsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class CmsBundle extends Bundle
+class BoxydevCmsBundle extends Bundle
 {
 }
