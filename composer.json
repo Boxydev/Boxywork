@@ -12,9 +12,13 @@
     "require": {
         "symfony/symfony": "^3.3"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
     "autoload": {
         "psr-4": {
-            "Boxydev\\Bundle\\": "src/Boxydev/Bundle"
+            "Boxydev\\Bundle\\": "src/Boxydev/Bundle",
+            "Boxydev\\Component\\": "src/Boxydev/Component"
         }
     }
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<phpunit colors="true"
+         bootstrap="vendor/autoload.php"
+>
+
+    <testsuite name="Boxywork Test Suite">
+        <directory>./src/Boxydev/Bundle/*/Tests</directory>
+        <directory>./src/Boxydev/Component/*/Tests</directory>
+    </testsuite>
+
+    <filter>
+        <whitelist>
+            <directory>./src/Boxydev</directory>
+        </whitelist>
+    </filter>
+
+</phpunit>
