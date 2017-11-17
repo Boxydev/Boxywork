@@ -13,7 +13,8 @@
         "symfony/symfony": "^3.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.4"
+        "phpunit/phpunit": "^6.4",
+        "friendsofphp/php-cs-fixer": "^2.8"
     },
     "autoload": {
         "psr-4": {
