@@ -12,6 +12,10 @@
     <filter>
         <whitelist>
             <directory>./src/Boxydev</directory>
+            <exclude>
+                <directory>./src/Boxydev/Bundle/*/Tests</directory>
+                <directory>./src/Boxydev/Component/*/Tests</directory>
+            </exclude>
         </whitelist>
     </filter>
 
