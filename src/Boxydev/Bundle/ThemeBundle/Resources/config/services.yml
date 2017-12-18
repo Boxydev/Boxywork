@@ -3,3 +3,9 @@ services:
         autowire: true
         autoconfigure: true
         public: false
+
+    theme.loader:
+        class: Boxydev\Bundle\ThemeBundle\Twig\ThemeLoader
+        arguments: ['@twig.loader.filesystem']
+        tags:
+            - { name: twig.loader }
